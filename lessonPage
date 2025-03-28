@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/65b208bb19.js" crossorigin="anonymous"></script>
+    <script src="definitions.js"></script>
+</head>
+<body>
+    <h1>Lesson Title <span class="theme-toggle" id="themeToggle"><i class="fa-solid fa-paintbrush"></i></span></h1>
+    <nav>
+        <ul class="menu">
+            <li id="linksMenu"><i class="fa-solid fa-link"></i> Links</li>
+            <li id="part1Menu">Part 1</li>
+            <li id="part2Menu">Part 2</li>
+            <li id="part3Menu">Part 3</li>
+            <li id="part4Menu">Part 4</li>
+            <li id="part5Menu">Part 5</li>
+            <li id="part6Menu">Part 6</li>
+            <li id="part7Menu">Part 7</li>
+            <li id="part8Menu">Part 8</li>
+        </ul>
+    </nav>
+    <div id="content">
+        <p>This is an example sentence with an <span class="underlined" title="A brief explanation about this word">underlined word</span>
+         and another <span class="underlined" title="Another definition">highlighted term</span>.</p>
+    </div>
+
+    <div id="linksContent" class="custom-content">
+        <h2>Useful Links</h2>
+        <div class="flex-container">
+            <a href="https://classroom.google.com" class="button-link"><i class="fa-solid fa-g"></i>Google Classroom</a>
+            <a href="https://clever.com" class="button-link"><i class="fa-solid fa-graduation-cap"></i>Clever</a>
+            <a href="https://sites.google.com/nplainfield.org/hexagons/hexagons" class="button-link"><i class="fa-solid fa-hexagon-nodes"></i>Hexagonal Learning</a>
+            <a href="https://blooket.com" class="button-link"><i class="fa-solid fa-b"></i>Blooket</a>
+            <a href="https://plaintalkhistory.com/monroeandflorencework/explore/" class="button-link"><i class="fa-solid fa-scale-unbalanced"></i> Lynching Map</a>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <h2>Select a Theme</h2>
+        <ul>
+            <li data-theme="theme-dark-grey">Dark Mode</li>
+            <li data-theme="theme-navy-blue-electric-blue">Navy Blue</li>
+            <li data-theme="theme-shades-of-purple">Purple</li>
+            <li data-theme="theme-blue-shades-and-white">Blue and White</li>
+            <li data-theme="theme-bold-and-daring">Bold and Brash</li>
+        </ul>
+        <button id="closePopup">Close</button>
+    </div>
+    <!-- Image Modal Popup Structure -->
+    <div id="imageModal" class="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="imgModalContent">
+        <div id="caption"></div>
+        <a class="arrow left-arrow" id="prevImage">&#10094;</a>
+        <a class="arrow right-arrow" id="nextImage">&#10095;</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
