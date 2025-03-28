@@ -1,0 +1,32 @@
+.theme-dark-grey, .theme-dark-grey h1 {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.theme-dark-grey .menu {
+  background-color: #333;
+}
+
+.theme-dark-grey .menu > li {
+  color: white;
+}
+
+.theme-dark-grey .menu > li:hover {
+  background-color: black;
+}
+
+.theme-dark-grey .section-buttons button {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-dark-grey .section-buttons button:hover, .theme-dark-grey .part-section {
+  background-color: #2e2e2e;
+}
+
+.theme-dark-grey .section-buttons button.active  {
+  background-color: #e0e0e0;
+}
+.theme-dark-grey .active-menu {
+  background-color: #121212;
+  }
